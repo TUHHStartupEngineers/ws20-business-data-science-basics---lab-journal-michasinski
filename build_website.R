@@ -3,7 +3,7 @@
 ##########################################################################
 ##### DON'T PUSH THIS SECTION TO GITHUB  - REMOVE THIS AFTER RUNNING #####
 ##########################################################################
-# Sys.setenv(LAB_KEY = "Your-token")
+Sys.setenv(LAB_KEY = "test123")
 
 # Step 1: Build Website ---------------------------------------------------
 rmarkdown::render_site(encoding = 'UTF-8')
