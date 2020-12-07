@@ -31,9 +31,11 @@ You can find the scripts in /journal_files/tidyverse/.
 
 # Aquisition
 
-You can find the scripts in /journal_files/aquisition/.
+In this figure you can see the prices of the bikes in the category 'MTB' from the manufacturer Rosebikes.
 
-Unfortunately it seemes like I have overritten my running version of this script. It worked after Mister Schwarz gave me a hint in the chat. I don't want to push the time regulation more that I did already.
+![](journal_files/aquisition/aquisition-1.jpg)
+
+You can find the scripts in /journal_files/aquisition/.
 
 # Wrangling
 
