@@ -36,6 +36,7 @@ You can find the scripts in /journal_files/tidyverse/.
 
 You can find the scripts in /journal_files/aquisition/.
 
+Unfortunately it seemes like I have overritten my running version of this script. It worked after Mister Schwarz gave me a hint in the chat. I don't want to push the time regulation more that I did already.
 
 # Wrangling
 

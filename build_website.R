@@ -24,3 +24,4 @@ file.rename(from = "./docs/journal_encrypted.html",
 
 # Open local html file in your browser
 browseURL("./docs/index.html")
+
