@@ -20,35 +20,45 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 This is an `.Rmd` file. It is plain text with special features. Any time you write just like this, it will be compiled to normal text in the website. If you put a \# in front of your text, it will create a top level-header.
 
-# My first post
+# Tidyverse
 
-Last compiled: `r Sys.Date()`
 
-Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left. 
+![](journal_files/tidyverse/revenue_by_loc.png)
+In this figure you can see the revenue by location. North-Rhine-Westphalia is the state with the highest revenue
 
-## Second level header
 
-You can add more headers by adding more hashtags. These won't be put into the table of contents
+![](journal_files/tidyverse/revenue_by_year_loc.png)
+In this plot you can see the sales by location and year.
 
-### third level header
+You can find the scripts in /journal_files/tidyverse/.
 
-Here's an even lower level header
+# Aquisition
 
-# My second post (note the order)
+You can find the scripts in /journal_files/aquisition/.
 
-Last compiled: `r Sys.Date()`
 
-I'm writing this tutorial going from the top down. And, this is how it will be printed. So, notice the second post is second in the list. If you want your most recent post to be at the top, then make a new post starting at the top. If you want the oldest first, do, then keep adding to the bottom
+# Wrangling
 
-# Adding R stuff
+In this figure you can see the 10 US companies with the most assigned/granted patents.
 
-So far this is just a blog where you can write in plain text and serve your writing to a webpage. One of the main purposes of this lab journal is to record your progress learning R. The reason I am asking you to use this process is because you can both make a website, and a lab journal, and learn R all in R-studio. This makes everything really convenient and in the same place. 
+![](journal_files/wrangling/wrangling-1.jpg)
 
-So, let's say you are learning how to make a histogram in R. For example, maybe you want to sample 100 numbers from a normal distribution with mean = 0, and standard deviation = 1, and then you want to plot a histogram. You can do this right here by using an r code block, like this:
+In this figure you see the top 10 companies with the most new granted patents for 2019.
+![](journal_files/wrangling/wrangling-2.jpg)
 
-```{r}
-samples <- rnorm(100, mean=0, sd=1)
-hist(samples)
-```
+In this figure you see the top 5 USPTO tech main classes for the top 10 companies (worldwide) with the most patents.
+![](journal_files/wrangling/wrangling-3.jpg)
 
-When you knit this R Markdown document, you will see that the histogram is printed to the page, along with the R code. This document can be set up to hide the R code in the webpage, just delete the comment (hashtag) from the cold folding option in the yaml header up top. For purposes of letting yourself see the code, and me see the code, best to keep it the way that it is. You'll learn that all of these things and more can be customized in each R code block.
+
+You can find the scripts in /journal_files/wrangling/.
+
+# Visualization
+
+In this figure you see the time course of the cumulative Covid-19 cases.
+![](journal_files/visualization/visualization-1.png)
+
+In this figure you can see the distribution of the mortality rate.
+![](journal_files/visualization/visualization-2.png)
+
+You can find the scripts in /journal_files/visualization/.
+
